@@ -12,6 +12,11 @@ body {
   color: #ffffff;
   text-align: center;
   background: linear-gradient(135deg, #123b5d, #167c80);
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  z-index:1000;
 }
 
 .site-header h1 {
@@ -49,7 +54,7 @@ body {
 
 /* Tata letak dan tampilan konten utama */
 main {
-  margin: 24px auto;
+  margin: 28% auto;
   padding: 0 16px;
 }
 
